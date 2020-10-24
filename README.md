@@ -19,11 +19,11 @@
     @Qualifier  根据属性名称自动注入
     @Resource   可以根据类型也可以根据名称自动注入
     @Value      注入普通类型属性
-#3.完全注解开发
+# 3.完全注解开发
     3.1创建配置类，替代xml配置文件
         @Configuration  //作为配置类，替代xml配置文件
         @ComponentScan(basePackages = "com")
-#4.aop
+# 4.aop
     4.1jdk动态代理
         （1）创建接口
         （2）创建接口实现类
